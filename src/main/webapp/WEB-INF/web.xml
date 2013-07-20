@@ -5,11 +5,11 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         version="2.5">
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>ru.usb7.jetty.helloworld.HelloWorld</servlet-class>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>ru.usb7.jetty.helloworld.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
+        <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 </web-app>
